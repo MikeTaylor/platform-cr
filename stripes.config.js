@@ -8,28 +8,21 @@ module.exports = {
    { 'url':'https://simmons-test-cr-okapi.hosted-folio.indexdata.com', 'tenant': 'sim' } // sim_admin edelweiss012020
 // { 'url':'https://okapi-flo.folio-dev.indexdata.com', 'tenant':'sim_daisy' }
 // { 'url':'https://folio-snapshot-okapi.aws.indexdata.com', 'tenant':'diku' }
-// { 'url':'http://shared-index.reshare-dev.indexdata.com:9130', 'tenant':'diku' }
   ,
 
   config: {
-    // autoLogin: { username: 'diku_admin', password: 'admin' }
     // logCategories: 'core,redux,connect,connect-fetch,substitute,path,mpath,mquery,action,event,perm,interface,xhr'
     // logPrefix: 'stripes'
     // logTimestamp: false
     // showPerms: false
     showHomeLink: true,
-    // listInvisiblePerms: false
+    // listInvisiblePerms: true
     // disableAuth: false
-    welcomeMessage: 'ui-rs.front.welcome',
-    platformName: 'ReShare',
-    platformDescription: 'ReShare platform',
-    hasAllPerms: false,
-    sharedIndexUI: 'http://shared-index.reshare-dev.indexdata.com',
-    sharedIndexWS: 'http://shared-index.reshare-dev.indexdata.com:9130',
-    showDevInfo: true,
-    // listInvisiblePerms: true,
-    // showPerms: true,
     welcomeMessage: 'ui-courses.front.welcome',
+    platformName: 'Course Reserves',
+    platformDescription: 'Course Reserves platform',
+    hasAllPerms: false,
+    showDevInfo: true,
     platformName: 'Mike CR',
   },
   modules: {
