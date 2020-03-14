@@ -2,9 +2,6 @@
   "name": "@folio/platform-cr",
   "version": "1.0.0",
   "license": "Apache-2.0",
-  "publishConfig": {
-    "registry": "https://repository.folio.org/repository/npm-folio/"
-  },
   "scripts": {
     "build": "export NODE_OPTIONS=\"--max-old-space-size=2048 $NODE_OPTIONS\"; stripes build stripes.config.js",
     "stripes": "stripes",
@@ -19,22 +16,18 @@
     "@folio/courses": "^1.0.0",
     "@folio/developer": "~1.10.1",
     "@folio/inventory": "^1.13.1000796",
-    "@folio/tenant-settings": "^2.14.100077",
-    "@folio/stripes": "^2.12.0",
+    "@folio/stripes": "^3.0.0",
     "@folio/stripes-erm-components": "^2.0.0",
-    "@folio/stripes-util": "~2.0.0",
+    "@folio/tenant-settings": "^2.14.0",
     "react": "~16.8.6",
-    "react-dom": "~16.8.0",
+    "react-dom": "~16.8.6",
     "react-intl": "^2.9.0",
-    "react-redux": "~5.1.1",
-    "redux": "^3.0.0 || ^4.0.0",
-    "react-router": "^4.1.1",
-    "react-router-dom": "^4.1.1"
+    "react-redux": "^5.1.1",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "redux": "^3.7.2"
   },
   "devDependencies": {
-    "@folio/eslint-config-stripes": "^4.1.0",
-    "@folio/stripes-cli": "^1.14.0",
-    "eslint": "^5.12.0",
-    "moment": "^2.22.2"
+    "@folio/stripes-cli": "^1.14.0"
   }
 }
