@@ -5,9 +5,12 @@ module.exports = {
   okapi:
 // { 'url':'http://localhost:9130', 'tenant':'diku' }
 // { 'url':'http://tmobile2.dyndns.biz:9130', 'tenant': 'diku' } // Kurt's development server
-   { 'url':'https://simmons-test-cr-okapi.hosted-folio.indexdata.com', 'tenant': 'sim' } // sim_admin edelweiss012020
+// { 'url':'https://simmons-test-cr-okapi.hosted-folio.indexdata.com', 'tenant': 'sim' } // sim_admin edelweiss012020
 // { 'url':'https://okapi-flo.folio-dev.indexdata.com', 'tenant':'sim_daisy' }
 // { 'url':'https://folio-snapshot-okapi.aws.indexdata.com', 'tenant':'diku' }
+// { 'url':'https://folio-snapshot-stable-okapi.aws.indexdata.com', 'tenant':'diku' }
+   { 'url':'https://folio-testing-okapi.aws.indexdata.com', 'tenant':'diku' }
+// { 'url':'https://folio-snapshot-test-okapi.aws.indexdata.com', 'tenant':'diku' }
   ,
 
   config: {
@@ -22,7 +25,7 @@ module.exports = {
     platformName: 'Course Reserves',
     platformDescription: 'Course Reserves platform',
     hasAllPerms: false,
-    showDevInfo: true,
+    showDevInfo: false,
     platformName: 'Mike CR',
   },
   modules: {
