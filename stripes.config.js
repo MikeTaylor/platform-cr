@@ -11,6 +11,8 @@ module.exports = {
 // { 'url':'https://folio-snapshot-stable-okapi.aws.indexdata.com', 'tenant':'diku' }
    { 'url':'https://folio-testing-okapi.aws.indexdata.com', 'tenant':'diku' }
 // { 'url':'https://folio-snapshot-test-okapi.aws.indexdata.com', 'tenant':'diku' }
+// { 'url':'https://simmons-okapi.hosted-folio.indexdata.com', 'tenant':'sim' }
+// { 'url':'https://okapi-bugfest-goldenrod.folio.ebsco.com', 'tenant':'fs09000000' } // folio folio
   ,
 
   config: {
@@ -26,13 +28,11 @@ module.exports = {
     platformDescription: 'Course Reserves platform',
     hasAllPerms: false,
     showDevInfo: false,
-    platformName: 'Mike CR',
   },
   modules: {
     '@folio/courses': {},
-    '@folio/inventory': {},
     '@folio/developer': {},
-    "@folio/tenant-settings": {},
+    '@folio/users': {},
     "@folio/plugin-find-user": {},
   },
   branding: {
